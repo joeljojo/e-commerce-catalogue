@@ -3,6 +3,7 @@ import Logo from "./Nav/Logo";
 import NavBar from "./Nav/NavBar";
 import Search from "./Nav/Search";
 import TopNavBar from "./Nav/TopNavBar";
+import Welcome from "./Welcome/Welcome";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <CartButton />
         </div>
       </TopNavBar>
+      <Welcome />
     </div>
   );
 }
