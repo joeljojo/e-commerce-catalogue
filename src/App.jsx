@@ -1,8 +1,8 @@
 import CartButton from "./Nav/CartButton";
 import Logo from "./Nav/Logo";
 import NavBar from "./Nav/NavBar";
+import Search from "./Nav/Search";
 import TopNavBar from "./Nav/TopNavBar";
-import Search from "./Search/Search";
 
 function App() {
   return (
