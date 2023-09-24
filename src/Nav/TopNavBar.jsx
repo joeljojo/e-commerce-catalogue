@@ -1,4 +1,4 @@
 const TopNavBar = ({ children }) => {
-  return <div>{children}</div>;
+  return <div className="bg-primary">{children}</div>;
 };
 export default TopNavBar;
