@@ -1,7 +1,7 @@
 import CommonButton from "../CommonButtons/CommonButton";
-import cart from "../assets/cart.jpg";
-import clothe from "../assets/clothe.jpg";
-import credit from "../assets/credit-card.jpg";
+import cart from "../../assets/cart.jpg";
+import clothe from "../../assets/clothe.jpg";
+import credit from "../../assets/credit-card.jpg";
 
 const Welcome = () => {
   return (
@@ -26,7 +26,7 @@ const Welcome = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="w-44 bg-secondary text-white text-center p-3 text-lg">
+          <div className="w-44 bg-secondary text-white text-center p-3 text-lg hover:bg-white hover:text-secondary">
             <CommonButton label="Shop Now" />
           </div>
         </div>

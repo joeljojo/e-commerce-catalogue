@@ -1,4 +1,4 @@
-import logo from "../assets/logo.jpg";
+import logo from "../../assets/logo.jpg";
 const Logo = () => {
   return (
     <div className="rounded-full w-40">

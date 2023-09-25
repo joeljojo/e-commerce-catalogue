@@ -1,14 +1,14 @@
-import CartButton from "./Nav/CartButton";
-import Logo from "./Nav/Logo";
-import NavBar from "./Nav/NavBar";
-import Search from "./Nav/Search";
-import TopNavBar from "./Nav/TopNavBar";
-import Welcome from "./Welcome/Welcome";
-
+import TopNabBar from "./Components/Nav/TopNavBar";
+import Logo from "./Components/Nav/Logo";
+import Search from "./Components/Nav/Search";
+import NavBar from "./Components/Nav/NavBar";
+import CartButton from "./Components/Nav/CartButton";
+import Welcome from "./Components/Welcome/Welcome";
+import FeaturedProducts from "./Components/FeaturedProducts/FeaturedProducts";
 function App() {
   return (
     <div>
-      <TopNavBar>
+      <TopNabBar>
         <div className="flex items-center justify-around">
           <div className="flex">
             <Logo />
@@ -17,8 +17,9 @@ function App() {
           <NavBar />
           <CartButton />
         </div>
-      </TopNavBar>
+      </TopNabBar>
       <Welcome />
+      <FeaturedProducts />
     </div>
   );
 }
