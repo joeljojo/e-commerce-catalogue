@@ -5,9 +5,9 @@ const Product = ({ product }) => {
         <img
           src={product?.image}
           alt="Featured Product"
-          className="w-full h-full"
+          className="w-full h-full border-2 border-text-dark p-3"
         />
-        <h2 className="text-text-dark font-bold">{product?.title}</h2>
+        <h2 className="text-text-dark font-bold pt-3">{product?.title}</h2>
         <p className="text-secondary">$ {product?.price}</p>
       </a>
     </div>
