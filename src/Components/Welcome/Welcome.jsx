@@ -8,7 +8,7 @@ const Welcome = () => {
     <section id="welcome" className="bg-background">
       <div className="flex flex-col py-14">
         <h1 className="text-center font-bold text-text-dark text-4xl mb-14">
-          Julia and Aliaya Online Stores
+          Jua Online Stores
         </h1>
         <div className="flex items-center justify-center">
           <hr className="w-52 border-t-2 border-primary" />

@@ -5,6 +5,7 @@ import NavBar from "./Components/Nav/NavBar";
 import CartButton from "./Components/Nav/CartButton";
 import Welcome from "./Components/Welcome/Welcome";
 import FeaturedProducts from "./Components/FeaturedProducts/FeaturedProducts";
+import NewsLetter from "./Components/NewsLetter/NewsLetter";
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
       </TopNabBar>
       <Welcome />
       <FeaturedProducts />
+      <NewsLetter />
     </div>
   );
 }

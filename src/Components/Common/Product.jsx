@@ -1,6 +1,6 @@
 const Product = ({ product }) => {
   return (
-    <div className="max-w-md max-h-96 mx-8">
+    <div className="max-w-md max-h-96 mx-8 mb-14">
       <a href="#">
         <img
           src={product?.image}
