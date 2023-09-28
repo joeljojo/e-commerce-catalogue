@@ -1,11 +1,11 @@
-import CommonButton from "../CommonButtons/CommonButton";
+import CommonButton from "../Common/CommonButton";
 import cart from "../../assets/cart.jpg";
 import clothe from "../../assets/clothe.jpg";
 import credit from "../../assets/credit-card.jpg";
 
 const Welcome = () => {
   return (
-    <section className="bg-background">
+    <section id="welcome" className="bg-background">
       <div className="flex flex-col py-14">
         <h1 className="text-center font-bold text-text-dark text-4xl mb-14">
           Julia and Aliaya Online Stores
