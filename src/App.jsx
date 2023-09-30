@@ -6,6 +6,7 @@ import CartButton from "./Components/Nav/CartButton";
 import Welcome from "./Components/Welcome/Welcome";
 import FeaturedProducts from "./Components/FeaturedProducts/FeaturedProducts";
 import NewsLetter from "./Components/NewsLetter/NewsLetter";
+import About from "./Components/About/About";
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
       <Welcome />
       <FeaturedProducts />
       <NewsLetter />
+      <About />
     </div>
   );
 }
