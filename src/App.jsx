@@ -7,7 +7,20 @@ import Welcome from "./Components/Welcome/Welcome";
 import FeaturedProducts from "./Components/FeaturedProducts/FeaturedProducts";
 import NewsLetter from "./Components/NewsLetter/NewsLetter";
 import About from "./Components/About/About";
+import { useState, useEffect } from "react";
+import fetchData from "./Components/Data/Data";
+import Footer from "./Components/Common/Footer";
 function App() {
+  const [products, setProducts] = useState([]);
+  const [error, setError] = useState(null);
+  useEffect(() => {
+    const url = "https://fakestoreapi.com/products";
+    const options = { method: "GET" };
+    //Fetch data
+    fetchData(url, options)
+      .then((data) => setProducts(data))
+      .catch((error) => setError(error));
+  }, []);
   return (
     <div>
       <TopNabBar>
@@ -21,9 +34,10 @@ function App() {
         </div>
       </TopNabBar>
       <Welcome />
-      <FeaturedProducts />
+      <FeaturedProducts products={products} error={error} />
       <NewsLetter />
       <About />
+      <Footer />
     </div>
   );
 }
