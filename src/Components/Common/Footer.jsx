@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <section id="footer" className="bg-text-dark">
       <div className="py-14">
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-4 justify-around ml-28">
           <div>
             <h3 className="text-text-gray uppercase text-2xl my-3">
               main menu

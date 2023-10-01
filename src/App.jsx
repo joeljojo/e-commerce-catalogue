@@ -10,6 +10,7 @@ import About from "./Components/About/About";
 import { useState, useEffect } from "react";
 import fetchData from "./Components/Data/Data";
 import Footer from "./Components/Common/Footer";
+import Copyright from "./Components/Common/Copyright";
 function App() {
   const [products, setProducts] = useState([]);
   const [error, setError] = useState(null);
@@ -38,6 +39,7 @@ function App() {
       <NewsLetter />
       <About />
       <Footer />
+      <Copyright />
     </div>
   );
 }
