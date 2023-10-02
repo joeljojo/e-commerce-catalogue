@@ -17,7 +17,7 @@ const Slider = ({ products }) => {
     return () => clearInterval(intervalId);
   });
   return (
-    <div className="flex justify-center my-14">
+    <div className="flex justify-center mt-14 mb-24 gap-12">
       <button onClick={handlePrevious}>
         <AiOutlineCaretLeft size={"3rem"} />
       </button>
