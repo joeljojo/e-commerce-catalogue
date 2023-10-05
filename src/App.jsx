@@ -11,6 +11,7 @@ import { useState, useEffect } from "react";
 import fetchData from "./Components/Data/Data";
 import Footer from "./Components/Common/Footer";
 import Copyright from "./Components/Common/Copyright";
+// import ProductsPage from "./Components/Products/ProducsPage";
 function App() {
   const [products, setProducts] = useState([]);
   const [error, setError] = useState(null);
@@ -40,6 +41,7 @@ function App() {
       <About />
       <Footer />
       <Copyright />
+      {/* <ProductsPage /> */}
     </div>
   );
 }
