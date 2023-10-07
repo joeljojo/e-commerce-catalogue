@@ -1,15 +1,17 @@
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
   return (
     <div>
       <ul className="flex">
         <li className="text-white p-4 font-bold text-base hover:text-secondary hover:cursor-pointer">
-          Home
+          <Link to={"/"}>Home</Link>
         </li>
         <li className="text-white p-4 font-bold text-base hover:text-secondary hover:cursor-pointer">
-          About
+          <a href="#about">About</a>
         </li>
         <li className="text-white p-4 font-bold text-base hover:text-secondary hover:cursor-pointer">
-          Shop
+          <Link to={"/products"}>Shop</Link>
         </li>
         <li className="text-white p-4 font-bold text-base hover:text-secondary hover:cursor-pointer">
           Help
